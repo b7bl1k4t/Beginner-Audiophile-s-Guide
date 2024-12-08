@@ -1,2 +1,6 @@
-# Beginner-Audiphile-s-Guide
+# Beginner-Audiophile-s-Guide
 MIREA course work
+
+# Features:
+- HTML, CSS, JS
+- Adaptivity

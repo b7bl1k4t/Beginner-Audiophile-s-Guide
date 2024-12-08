@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/icon/site.webmanifest">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <title>Обзоры</title>
+</head>
+<body>
+<header class="site-header">
+    <div class="header-content">
+        <a href="index.html" class="logo-link" aria-label="Перейти на главную страницу">
+            <img src="assets/headphones.png" alt="Логотип" class="site-logo">
+        </a>
+        <h1 class="site-title">Справочник начинающего аудиофила</h1>
+    </div>
+    <nav class="site-nav">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="theory.html">Теория</a></li>
+                <li><a href="reviews.html" class="active">Обзоры</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+            </ul>
+            <button class="hamburger-menu" aria-label="Открыть меню">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Секция с кнопками для сортировки -->
+    <section class="filter-buttons">
+        <button class="filter-btn" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="headphones">Наушники</button>
+        <button class="filter-btn" data-filter="speakers">Колонки</button>
+        <button class="filter-btn" data-filter="amplifiers">Усилители</button>
+    </section>
+
+    <!-- Секция карточек -->
+    <section class="cards-container">
+        <!-- Наушники -->
+        <div class="card headphones">
+            <img src="images/reviews/penon.webp" alt="Наушники" class="card-img">
+            <div class="card-content">
+                <h3>Обзор наушников Penon Voltage</h3>
+                <p>Трибридные IEM 2DD + 4BA + 4 EST. Новейший флагманский IEM от Penon. Розничная цена примерно от $1099 до $1199</p>
+                <p>Автор: Иван Иванов, Дата: 15.11.2024</p>
+            </div>
+        </div>
+        <div class="card headphones">
+            <img src="images/reviews/sivga-p2.webp" alt="Наушники" class="card-img">
+            <div class="card-content">
+                <h3>Наушники Sivga P2 Pro — Полный обзор</h3>
+                <p>Наушники с магнитопланарным излучателем, открытой конструкцией и деревянными чашками.</p>
+                <p>Автор: Анна Смирнова, Дата: 05.10.2024</p>
+            </div>
+        </div>
+
+        <!-- Колонки -->
+        <div class="card speakers">
+            <img src="images/review_speakers.webp" alt="Колонки" class="card-img">
+            <div class="card-content">
+                <h3>Обзор колонок ABC</h3>
+                <p>Краткое описание о колонках, их особенностях и преимуществах.</p>
+                <p>Автор: Петр Петров, Дата: 10.10.2024</p>
+            </div>
+        </div>
+        <div class="card speakers">
+            <img src="images/review_speakers.webp" alt="Колонки" class="card-img">
+            <div class="card-content">
+                <h3>Лучшие колонки для дома</h3>
+                <p>Выбираем лучшие колонки для домашней аудиосистемы.</p>
+                <p>Автор: Ольга Сергеева, Дата: 22.09.2024</p>
+            </div>
+        </div>
+
+        <!-- Усилители -->
+        <div class="card amplifiers">
+            <img src="images/reviews/ifi_audio_zen_can_3_01.webp" alt="Усилитель" class="card-img">
+            <div class="card-content">
+                <h3>Усилитель IFi ZEN CAN 3 — Подробный обзор</h3>
+                <p>Настольный аналоговый усилитель для наушников от iFi.</p>
+                <p>Автор: Михаил Кузнецов, Дата: 01.09.2024</p>
+            </div>
+        </div>
+        <div class="card amplifiers">
+            <img src="images/reviews/Burson-Playmate-3-02.webp" alt="Усилитель" class="card-img">
+            <div class="card-content">
+                <h3>Обзор усилителя Burson Playmate 3</h3>
+                <p>ЦАП ESS9039, DSD512, 786Khz XMos USB. Выходная мощность 3 Вт.</p>
+                <p>Автор: Сергей Новиков, Дата: 30.08.2024</p>
+            </div>
+        </div>
+
+        <!-- Наушники -->
+        <div class="card headphones">
+            <img src="images/reviews/penon.webp" alt="Наушники" class="card-img">
+            <div class="card-content">
+                <h3>Обзор наушников Penon Voltage</h3>
+                <p>Трибридные IEM 2DD + 4BA + 4 EST. Новейший флагманский IEM от Penon. Розничная цена примерно от $1099 до $1199</p>
+                <p>Автор: Иван Иванов, Дата: 15.11.2024</p>
+            </div>
+        </div>
+        <div class="card headphones">
+            <img src="images/reviews/sivga-p2.webp" alt="Наушники" class="card-img">
+            <div class="card-content">
+                <h3>Наушники Sivga P2 Pro — Полный обзор</h3>
+                <p>Наушники с магнитопланарным излучателем, открытой конструкцией и деревянными чашками.</p>
+                <p>Автор: Анна Смирнова, Дата: 05.10.2024</p>
+            </div>
+        </div>
+
+        <!-- Колонки -->
+        <div class="card speakers">
+            <img src="images/review_speakers.webp" alt="Колонки" class="card-img">
+            <div class="card-content">
+                <h3>Обзор колонок ABC</h3>
+                <p>Краткое описание о колонках, их особенностях и преимуществах.</p>
+                <p>Автор: Петр Петров, Дата: 10.10.2024</p>
+            </div>
+        </div>
+        <div class="card speakers">
+            <img src="images/review_speakers.webp" alt="Колонки" class="card-img">
+            <div class="card-content">
+                <h3>Лучшие колонки для дома</h3>
+                <p>Выбираем лучшие колонки для домашней аудиосистемы.</p>
+                <p>Автор: Ольга Сергеева, Дата: 22.09.2024</p>
+            </div>
+        </div>
+
+        <!-- Усилители -->
+        <div class="card amplifiers">
+            <img src="images/reviews/ifi_audio_zen_can_3_01.webp" alt="Усилитель" class="card-img">
+            <div class="card-content">
+                <h3>Усилитель IFi ZEN CAN 3 — Подробный обзор</h3>
+                <p>Настольный аналоговый усилитель для наушников от iFi.</p>
+                <p>Автор: Михаил Кузнецов, Дата: 01.09.2024</p>
+            </div>
+        </div>
+        <div class="card amplifiers">
+            <img src="images/reviews/Burson-Playmate-3-02.webp" alt="Усилитель" class="card-img">
+            <div class="card-content">
+                <h3>Обзор усилителя Burson Playmate 3</h3>
+                <p>ЦАП ESS9039, DSD512, 786Khz XMos USB. Выходная мощность 3 Вт.</p>
+                <p>Автор: Сергей Новиков, Дата: 30.08.2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Кнопка "Загрузить ещё" -->
+    <section class="load-more-section">
+        <button id="load-more-btn" class="load-more-btn">Загрузить ещё</button>
+    </section>
+</main>
+
+<button id="back-to-top" class="back-to-top" aria-label="Подняться наверх">↑</button>
+<!-- Footer Section -->
+<footer class="footer">
+    <p>Разработчик: Зубов Егор Павлович</p>
+    <ul class="footer-links">
+        <li><a>О нас</a></li>
+        <li><a>Контакты</a></li>
+        <li><a>Политика конфиденциальности</a></li>
+    </ul>
+</footer>
+<script src="js/global.js"></script>
+<script src="js/reviews.js"></script>
+</body>
+</html>
